@@ -1,8 +1,10 @@
-import React from 'react'
+import { Box } from "@chakra-ui/react"
 
 function Support() {
   return (
-    <div>Support</div>
+    <Box>
+        
+    </Box>
   )
 }
 
