@@ -1,13 +1,11 @@
-import { Flex } from "@chakra-ui/react";
-import NavBar from "../../Components/NavBar";
-import { SideNav } from "../../Components/SideNav";
+import DashBoardLayout from "../../Components/DashBoardLayout";
+import PortfolioSection from "./Components/Portfolio";
 
 function DashBoard() {
   return (
-    <Flex >
-      <SideNav />
-      <NavBar />
-    </Flex>
+    <DashBoardLayout title="Dashboard">
+      <PortfolioSection />
+    </DashBoardLayout>
   );
 }
 

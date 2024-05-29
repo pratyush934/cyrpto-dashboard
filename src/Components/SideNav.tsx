@@ -32,6 +32,13 @@ export const SideNav = () => {
       maxWidth={"300px"}
       height={"100vh"}
       justifyContent={"space-between"}
+      boxShadow={{
+        base: "none",
+        lg: "lg",
+      }}
+      width={{
+        base: "full",
+      }}
     >
       <Box>
         <Heading
